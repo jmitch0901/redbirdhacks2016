@@ -1,9 +1,12 @@
+
 body{
   background: url(https://farm8.staticflickr.com/7525/15771128486_8df1ed078b_o.png);
+
 }
 
 
 #main{
+    height:900px;
     margin-top: 50px;
     position: relative;
 
@@ -40,6 +43,11 @@ body{
         text-shadow: 0px 2px 8px rgba(0,0,0,0.50);
 }
 
+.logo-sponsors .thumbnail{
+    border:none;
+    
+}
+
 .panel-group {
         margin-top: 50px;
 }
@@ -50,10 +58,11 @@ body{
         font-size: 80px;
 }
 
+
 #sponsors {
         background-color: white;
-        height: 1100px;
 }
+
 
 .red_background {
         background-color: #C92A2A;
@@ -63,12 +72,14 @@ body{
         color: white;
 }
 
+/*
 section{
   height:900px;
   border: 2px dashed red;
 
   margin-bottom: 0;
 }
+*/
 
 .logo-image {
         padding: 70px;
@@ -95,7 +106,9 @@ span {
 br {
     clear: both;
 }
-
+#schedule{
+        padding-bottom: 250px;
+}
 .schedule-text {
         margin: auto;
         width: 60%;
@@ -109,3 +122,6 @@ br {
         height: 40px;
         padding-top: 5px;
 }
+
+
+
