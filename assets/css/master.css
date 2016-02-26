@@ -51,7 +51,13 @@ body{
 .panel-group {
         margin-top: 50px;
 }
+.panel-heading{
+    font-size: 2em;
+}
 
+.panel-body{
+    font-size: 1.5em;
+}
 .subtitle {
         margin-top: 20px;
         text-align: center;
@@ -71,7 +77,10 @@ body{
 .whitetext {
         color: white;
 }
-
+section{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
 /*
 section{
   height:900px;
@@ -80,6 +89,9 @@ section{
   margin-bottom: 0;
 }
 */
+#faq{
+
+}
 
 .logo-image {
         padding: 70px;
@@ -106,9 +118,12 @@ span {
 br {
     clear: both;
 }
+
+/*
 #schedule{
         padding-bottom: 250px;
 }
+*/
 .schedule-text {
         margin: auto;
         width: 60%;
