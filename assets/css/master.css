@@ -41,11 +41,15 @@ body{
         margin-right: auto;
         color: #D6263C;
         text-shadow: 0px 2px 8px rgba(0,0,0,0.50);
+        max-width: 100%;
 }
 
 .logo-sponsors .thumbnail{
-    border:none;
-    
+        border: none;
+}
+
+.logo-sponsors{
+        padding: 40px;
 }
 
 .panel-group {
@@ -64,11 +68,9 @@ body{
         font-size: 80px;
 }
 
-
 #sponsors {
         background-color: white;
 }
-
 
 .red_background {
         background-color: #C92A2A;
@@ -136,6 +138,8 @@ br {
 .brand {
         height: 40px;
         padding-top: 5px;
+        padding-left: 25px;
+        float: left;
 }
 
 
