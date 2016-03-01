@@ -30,9 +30,18 @@ body{
 
 .logo-title {
         background: url(/assets/img/rbh_opening.png);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
 }
 
 .logo {
@@ -141,6 +150,3 @@ br {
         padding-left: 25px;
         float: left;
 }
-
-
-
